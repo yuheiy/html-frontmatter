@@ -1,0 +1,25 @@
+{
+  "name": "@yuheiy/html-frontmatter",
+  "description": "Parse front-matter from raw HTML.",
+  "license": "MIT",
+  "author": "Yuhei Yasuda <yuhei.yasuda1003@gmail.com>",
+  "repository": "https://github.com/yuheiy/html-frontmatter.git",
+  "version": "0.0.1",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "js-yaml": "^3.12.0",
+    "parse5": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
